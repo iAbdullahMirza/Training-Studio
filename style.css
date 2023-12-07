@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* SPECIAL CLASSES */
+/* SPECIAL CLASSES */
+
+.orange-text{
+    color: #ff462a !important;
+}
+
+/* HEADER STYLES GOES HERE */
+/* HEADER STYLES GOES HERE */
+header{
+    background-color: rgb(136 136 136 / 69%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 16px 100px;
+    z-index: 1000;
+}
+header *{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+header .logo{
+    float: left;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+header .logo *{
+    font-size: 24px;
+    font-weight: 800;
+}
+header .nav{
+    float: right;
+    margin-top: 8px;    
+}
+header .nav ul{
+    list-style-type: none;
+}
+header .nav li{
+    display: inline-block;
+    margin-right: 12px;
+}
+header .nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    padding: 0px 10px;
+}
+header .nav a:hover{
+    color: #ff462a;
+}
+header .nav li:last-child{
+    margin-right: 0px !important;
+}
+header .nav li:last-child a{
+    background-color: #ff462a;
+    padding: 12px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+header .nav li:last-child a:hover{
+    background-color:#ef5441;
+    color: black;
+}
+
+/* SECTION 1 HERO SECTION GOES HERE */
+/* SECTION 1 HERO SECTION GOES HERE */
+.section1{
+    background-image: url(./images/background1.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.bg_effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44 44 50 / 60%);
+    z-index: -1;
+}
+.section1 *{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.section1 .label{
+    font-size: 15px;
+}
+.section1 h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    margin-top: 15px;
+}
+.section1 h1 span{
+    font-size: 50px;
+    font-weight: 800;
+}
+.section1 a{
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #ff462a;
+    padding:13px 12px;
+    border-radius: 2px;
+    margin: 0 246px;
+}
+.section1 a:hover{
+    background-color: #ff462a;
+}
+.section1 .content *{
+    text-align: center;
+}
+.section1 .content{
+    padding: 192px 313px;
+}
+
+
+/* SECTION 2 GOES HERE */
+/* SECTION 2 GOES HERE */
+
+p{
+    color: #949393;
+}
+.section2{
+    font-family: sans-serif;
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 80px 71px 80px;
+    height: 872px;
+}
+.section2 .top h2{
+    display: inline-block;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+.section2 .top h2 span{
+    margin-left: 9px;
+}
+.section2>.top .material-symbols-outlined{
+    color: #ff462a;
+    font-weight: 300;
+    margin-top: 6px;
+    font-size: 80px;
+}
+.section2 .top p{
+    margin-top: 10px;
+}
+
+.coloumns{
+    padding: 0px 60px 120px 60px;
+    background-color: #fff;
+}
+.coloumns .col1{
+    display: inline-block;
+    background-color: aqua;
+    float: left;
+    width: 49%;
+    height: 500px;
+}
+.coloumns .col2{
+    display: inline-block;
+    height: 500px;
+    background-color: blanchedalmond;
+    width: 49%;
+    float: right;
+}
+.coloumns .services{
+    width: 98%;
+    margin: 5px 5px 5px 5px;
+}
+.logo-box{
+    position: relative; 
+    background-color: #ff462a;
+    left: 0;
+}
+.section2 .bottom .material-symbols-outlined{
+    color: white;
+    font-size: 36px;
+    padding: 24px;
+}
+.section2 .courses{
+    padding-top: 91px;
+}
+.section2 .courses .course{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 32px;
+}
+.section2 .courses .course:nth-child(odd){
+    float: left;
+}
+.section2 .courses .course:nth-child(even){
+    float: right;
+}
+.section2 .courses .course .logo{
+    background-color: #ff462a;
+    float: left;
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+}
+.section2 .courses .course .info{
+    text-align: left;
+    float: right;
+    width: 78.5%;
+}
+.section2 .courses .course .info .title{
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.section2 .courses .course .info .content{
+    font-size: 12px;
+    color: rgba(0, 0, 0, .6);
+    line-height: 1.8;
+}
+
+.section2 .courses .course .info .discover{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* SECTION 3 GOES HERE */
+/* SECTION 3 GOES HERE */
+
+.section3{
+    background-image: url(./images/background2.jpg);
+    backdrop-filter: rgb(44 44 50 / 60%);;
+    background-repeat:no-repeat;
+    width: 100%;
+    max-height: 435px  ;
+    background-size:cover ;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+    z-index: -2;
+    color: #fff;
+    position: relative;
+}
+/* .bg_effect{
+    position: absolute;
+    height: 350px ;
+    width: 100%;
+    z-index: -1;
+    background-color: #949393;
+
+} */
+.section3 .maincontent{
+    position: relative;
+    padding: 2px 159px 97px 159px;
+}
+.section3 p{
+    color: #fff;
+    display: inline-block;
+    line-height: 1.3;
+}
+.section3 h3{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 800;
+    padding-bottom: 13px;
+    margin-top: 80px;
+}
+.section3 .member-btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #ff462a;
+    padding: 15px 15px;
+    margin-top: 32px;
+}
+.section3 .member-btn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #ef5441;
+}
+
+footer{
+    width: 100%;
+    height: 86px;
+    color: white;
+    text-align: center;
+    background-color: rgb(90 90 90);
+    padding: 23px 55px;
+    border-top: 7px solid #9b9b9b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

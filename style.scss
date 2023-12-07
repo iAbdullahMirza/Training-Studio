@@ -1,0 +1,12 @@
+header{
+    .nav{
+        &:last-child{
+            color: green;
+            &:hover{
+                font-size: 200px;
+                background-color: orange;
+                text-align: center;
+            }
+        }
+    }
+}
